@@ -3,7 +3,7 @@ html {
 }
  
 body {
-  background-color: floralwhite;
+  background-color: #ff00ff;
   width: 600px;
   border: 2px solid black;
   border-radius:25px;
@@ -12,12 +12,12 @@ body {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 30px;
 	text-align: center;
 	margin: 0;
 	padding: 20px 0;
-	color: #ff00ff;  /* Fuchsia */
-	text-shadow: 3px 3px 1px black;
+	color: black
+	
 }
 
 img {
