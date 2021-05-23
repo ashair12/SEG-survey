@@ -1,1 +1,30 @@
-<h1>Hello!</h1>
+<html>
+  <head><title>Survey</title></head>
+  <body>
+    <form action="index.php" name="My survey" method="POST">
+      
+      First name: <input type="text" name="firstname"><br>
+      Last name: <input type="text" name="lastname">
+     <!-- Checkbox: --> 
+      I like:<br>
+      <input type="checkbox" name="Apples" value="Apples">Apples<br>
+      <input type="checkbox" name="Oranges" value="Oranges">Oranges<br>
+      <input type="checkbox" name="Bananas" value="Bananas">Bananas<br>
+      
+      <!-- Dropdown: --> 
+      What is your favourite fruit?:<br>
+      <select name= "favourite">
+        <option value ="checkbox" selected="selected">Apples</option>
+        <option value ="checkbox" selected="selected">Oranges</option>
+        <option value ="checkbox" selected="selected">Bananas</option>
+        
+      <!-- Comment box: --> 
+        
+        Comments<br>
+        <textarea rows="5" cols="30"/>
+        
+        <input type="submit" value="Submit the survey"/>
+        
+    </form>
+  </body>
+</html>
