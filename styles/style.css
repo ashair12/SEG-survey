@@ -3,10 +3,11 @@ html {
 }
  
 body {
-  background-color: powderblue;
+  background-color: floralwhite;
   width: 600px;
   border: 2px solid black;
-  padding: 0px 20px 20px 20px;
+  border-radius:25px;
+  padding: 20px;
   
 }
 
