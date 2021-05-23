@@ -2,15 +2,6 @@ html {
   background-color: white;
 }
 
-title{
-	background-color: #b3ffb30;
-	width: 600px;
-	border: 2px solid black;
-	border-radius 25px;
-	padding:20px;
-	margin: auto;
-}
-
 body {
   background-color: slategrey;
   width: 600px;
