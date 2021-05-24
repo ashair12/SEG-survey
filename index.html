@@ -9,30 +9,39 @@
   <body>
     <h1>Survey</h1>
     <form id="myform" action="index.php" name="My survey">
-
+      <br>
+	    <br>
+      <div class="question">
+        <h2> Personal Information </h2>
       First name: <input type="text" name="firstname"><br>
       <br>
       Last name: <input type="text" name="lastname"><br>
+      </div>
+      
      <!-- Checkbox: --> 
+      <div class="question">
       I like:<br>
       <input type="checkbox" name="Apples" value="Apples">Apples<br>
       <input type="checkbox" name="Oranges" value="Oranges">Oranges<br>
       <input type="checkbox" name="Bananas" value="Bananas">Bananas<br>
+      </div>
       
       <!-- Dropdown: --> 
+      <div class="question">
       What is your favourite fruit?:<br>
       <select name= "favourite">
         <option value ="checkbox" selected="selected">Apples</option>
         <option value ="checkbox" selected="selected">Oranges</option>
         <option value ="checkbox" selected="selected">Bananas</option>
+        </div>
 
-      <!-- Comment box:  
-    
+     
+    <div class="question">
         Comments:<br>
-        <textarea rows="5" cols="30"/>
-        </textarea>
+        <textarea rows="5" cols="30"> </textarea>
       <br>
-      -->
+      </div>
+      
       <input type="submit" value="Submit"/>
         
     </form>
