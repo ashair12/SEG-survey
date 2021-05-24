@@ -38,8 +38,8 @@ table {
 
 /* Defining styling for a specific element type - each question */
 .question {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   margin: 20px;
   padding: 20px;
 }
